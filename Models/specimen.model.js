@@ -5,6 +5,22 @@ import { Schema, model } from 'mongoose'
 */
 
 const specimenSchema = new Schema({
+	location: {
+        type: String,
+        required: true
+    },
+    clinical_ho: {
+        type: String,
+        required: true
+    },
+    provisional_diagnosis: {
+        type: String,
+        required: true
+    },
+    antibiotics_given: {
+        type: String,
+        required: true
+    },
 	specimen_id: {
 		type: String,
 		required: true,

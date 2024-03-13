@@ -45,23 +45,7 @@ const patientSchema = new Schema({
     patient_mobile: {
         type: Number,
         required: true
-    },
-    location: {
-        type: String,
-        required: true
-    },
-    clinical_ho: {
-        type: String,
-        // required: true
-    },
-    provisional_diagnosis: {
-        type: String,
-        // required: true
-    },
-    antibiotics_given: {
-        type: String,
-        // required: true
-    },
+    }
 
 });
 
