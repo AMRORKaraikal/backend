@@ -49,10 +49,6 @@ const specimenSchema = new Schema({
 		type: String,
 		required: true,
 	},
-	specimen_collector: {
-		type: String,
-		required: true,
-	},
 	investigation_required: {
 		type: String,
 		required: true,
